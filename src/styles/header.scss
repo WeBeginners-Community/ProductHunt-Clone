@@ -1,0 +1,127 @@
+div {
+	.header_contianer {
+		width: 100%;
+		background-color: #fff;
+		padding: 12px 0;
+		background: #fff;
+		border-bottom: 1px solid #e8e8e8;
+		height: 66px;
+		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+		display: flex;
+		justify-content: center;
+		.header {
+			width: 78%;
+			display: flex;
+			justify-content: space-between;
+			margin: 0 auto;
+			.nav {
+				width: 66%;
+				display: flex;
+				justify-content: space-evenly;
+				.logo {
+					margin-right: 10px;
+					&:hover {
+						cursor: pointer;
+					}
+					img {
+						height: 40px;
+						width: 55px;
+					}
+				}
+				.search_box {
+					display: flex;
+					align-items: center;
+					span {
+						position: absolute;
+						margin: 0 10px;
+					}
+					input {
+						background-color: #fff;
+						width: 280px;
+						border: 1px solid #e8e8e8;
+						border-radius: 3px;
+						height: 35px;
+						padding: 0 10px 0 38px;
+						font-size: 14px;
+						margin-right: 20px;
+					}
+				}
+				ul {
+					display: flex;
+					align-items: center;
+					li {
+						display: inline;
+						margin-right: 20px;
+						color: #6f6f6f;
+						font-size: 1rem;
+						&:hover {
+							cursor: pointer;
+						}
+					}
+				}
+			}
+			.auth_button {
+				width: 32%;
+				text-align: right;
+				margin-right: 20px;
+				margin-top: 8px;
+				border: none;
+				button {
+					height: 30px;
+					margin-left: 8px;
+					background: #fff;
+					color: #000;
+					font-size: 11px;
+					padding: 0 16px;
+					text-transform: uppercase;
+					font-weight: 600;
+					border-radius: 3px;
+					&:hover {
+						cursor: pointer;
+					}
+				}
+				.signup_button {
+					background-color: #cc4d29;
+					color: #fff;
+					border: 1px solid #cc4d29;
+				}
+			}
+		}
+	}
+	.heading {
+		width: 80%;
+		margin: 40px auto 8px auto;
+		display: flex;
+		justify-content: space-between;
+		.main_heading {
+			width: 66%;
+			display: flex;
+			justify-content: space-between;
+			.title {
+				font-size: 20px;
+				color: #000;
+				font-weight: 600;
+				line-height: 2rem;
+			}
+			.sub_title {
+				color: #000;
+				font-size: 11px;
+				font-weight: 400;
+				text-transform: uppercase;
+				line-height: 1.5rem;
+			}
+		}
+		h3 {
+			width: 32%;
+			font-weight: 600;
+			font-size: 1rem;
+			line-height: 2rem;
+		}
+	}
+}
+
+@media screen and (max-width:768px) {
+    .auth_button {
+		display: none;
+	}
+}

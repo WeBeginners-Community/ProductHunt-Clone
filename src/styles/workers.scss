@@ -1,0 +1,69 @@
+.makers_container {
+	border-radius: 5px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	background-color: #fff;
+	width: 330px;
+	margin-bottom: 20px;
+	.makers_list {
+		padding-bottom: 20px;
+		span {
+			display: inline-block;
+			margin: 5px;
+			img {
+				width: 38px;
+				height: 38px;
+				border-radius: 50%;
+			}
+		}
+	}
+	footer {
+		p {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-top: 1px solid #e8e8e8;
+			padding-top: 15px;
+			color: #cc4d29;
+			text-transform: uppercase;
+			font-size: 11px;
+			font-weight: 600;
+		}
+	}
+}
+.radio_title {
+	h3 {
+		font-weight: 600;
+		font-size: 1rem;
+		line-height: 2rem;
+	}
+}
+
+.sponsered_container {
+	border-radius: 5px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	width: 330px;
+	margin-bottom: 20px;
+	display: flex;
+	.sponsered_message {
+		width: 240px;
+		padding: 10px 15px 10px 10px;
+		span {
+			min-height: 30px;
+			line-height: 20px;
+			font-weight: 600;
+			font-size: 13px;
+		}
+	}
+	.background_image {
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		width: 90px;
+		background: #f8f800
+			url(https://ph-static.imgix.net/radio/ph_radio_cat.png?auto=format&auto=compress&w=90)
+			no-repeat 100% 100%;
+		background-size: 80% auto;
+		justify-content: center;
+	}
+}
