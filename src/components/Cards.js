@@ -81,7 +81,6 @@ class Cards extends React.Component {
 		})
 			.then(res => res.json())
 			.then(resData => {
-				console.log(resData.posts);
 				this.setState({ data: resData.posts });
 			})
 			.catch(err => console.log(err));
