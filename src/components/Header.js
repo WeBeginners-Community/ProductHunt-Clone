@@ -40,6 +40,8 @@ function Header() {
 					</div>
 					<div className="auth_button">
 						<button className="login_button">Sign in</button>
+						
+
 						<button className="signup_button">Sign up</button>
 					</div>
 				</header>
