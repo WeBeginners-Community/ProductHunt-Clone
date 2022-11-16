@@ -2,7 +2,6 @@ import React from "react";
 import Card from "./Card";
 import Sidebar from "./Sidebars";
 import configs from "../configs";
-
 const images = [
 	{
 		img:
@@ -90,9 +89,9 @@ class Cards extends React.Component {
 			<>
 				<div className="container">
 					<div className="product_list">
-						{this.state.data.map(product => (
-							<Card {...product} updateCount={this.updateCount} />
-						))}
+						{this.state.data.map((product,id) => (
+							<Card {...product} updateCount={this.updateCount} key={id} />
+	))}
 					</div>
 					<div className="side_container">
 						<Sidebar data={images} />
