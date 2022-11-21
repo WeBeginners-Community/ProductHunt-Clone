@@ -59,4 +59,4 @@ $ git push origin [name_of_your_new_branch]
 
 Thanks to all the people who have contributed:
 
-![Contributors](https://contributors-img.web.app/image?repo=sulagna-dutta-roy/ProductHunt-Clone)
+![Contributors](https://contributors-img.web.app/image?repo=WeBeginners-Community/ProductHunt-Clone)
