@@ -2,7 +2,7 @@
 
 ###  How to Start?  
 
-If you have a idea of any web projects you want to build just open an appropriate issue regarding this, we will discuss and assign you that issue. In case you are confused and have queries, just ping [me](https://www.linkedin.com/in/sulagna-dutta-roy-26421b201), will help you get along and build!
+If you have an idea of any web projects you want to build just open an appropriate issue regarding this, we will discuss and assign you that issue. In case you are confused and have queries, just ping [me](https://www.linkedin.com/in/sulagna-dutta-roy-26421b201), will help you get along and build!
 
 
 ###  Submit a Pull Request :
